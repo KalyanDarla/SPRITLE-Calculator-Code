@@ -10,11 +10,19 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import com.spring_Calculator.spring_Calculator.Impl.Calculator;
 
+/*
+ * this file represents the Spring Configuration class
+ */
 @Configuration
 @ComponentScan(basePackages="com.spring_Calculator.spring_Calculator")
 @EnableWebMvc
 public class MvcConfiguration implements WebMvcConfigurer{
 
+	
+	
+	/*
+	 *  Here to declare the beans of the Spring and User defined Classes
+	 */
 	@Bean
 	public ViewResolver getViewResolver(){
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();

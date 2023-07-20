@@ -1,5 +1,9 @@
 package com.spring_Calculator.spring_Calculator.exception;
 
+
+/*
+ * this file represents the Exception  class
+ */
  @SuppressWarnings("unused")
 public class DivideByZero extends RuntimeException{
 	

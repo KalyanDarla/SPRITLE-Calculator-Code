@@ -1,5 +1,9 @@
 package com.spring_Calculator.spring_Calculator.Impl;
 
+/*
+ * this file represents the Spring Service class
+ */
+
 import org.springframework.stereotype.Service;
 
 import com.spring_Calculator.spring_Calculator.Interface.Calculator_Interface;
